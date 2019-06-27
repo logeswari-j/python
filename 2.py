@@ -1,6 +1,9 @@
 num=int(input())
-mod=num%2
-if num>0:
-	print("odd")
-else:
-	print("even")
+if(num>=0):
+    if(num%2==0):
+	    print("Even")
+    elif(num%2==1):
+	    print("Odd")
+    else:
+     print("invalid")
+     
