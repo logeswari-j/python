@@ -1,10 +1,10 @@
-r1,r2=map(int,input().split())
-for r3 in range(r1+1,r2):
-  choose=r3
-  friend=0
-  while (r3>0):
-    r=r3%10
-    friend=friend+(r**3)
-    r3=r3//10
-    if(friend==choose):
-      print(friend,end=" ")
+n1,n2=map(int,input().split())
+for n in range(n1+1,n2):
+  sum=0
+  temp0=n
+  while temp0>0:
+    digit=temp0%10
+    sum+=digit**3
+    temp0//=10
+  if n==sum:
+    print(n,end=' ')
