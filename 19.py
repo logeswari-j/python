@@ -1,5 +1,5 @@
 vap=int(input())
-sum=1
+s=1
 for i in range(1,vap+1):
-   sum=sum*i
-print(sum)   
+   s=s*i
+print(s)   
