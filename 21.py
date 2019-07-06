@@ -1,2 +1,2 @@
-a,b,c=map(int,input().split())
-print(int((a/2)*((2*b)+(a-1)*c)))
+x,y,z=map(int,input().split())
+print(int((x/2)*((2*y)+(x-1)*z)))
