@@ -1,4 +1,4 @@
-i1=input()
-print(i1.count('.')+1)
+par=input()
+print(par.count(".")+1)
 
 
