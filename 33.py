@@ -1,7 +1,7 @@
-p=str(input())
-c1=0
-for i in p:
+x=str(input())
+y=0
+for i in x:
     if i.isspace()==True:
-        c1=c1+1
+        y=y+1
         
-print(c1)
+print(y)
