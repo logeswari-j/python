@@ -1,2 +1,2 @@
-l,m=map(int,input().split())
-print(m,l)
+a,b=map(int,input().split())
+print(b,a)
