@@ -1,5 +1,5 @@
-n=int(input())
-a=list(map(int,input().split()))
-a.sort()
-for r in a:
-    print(r,end=' ')
+x=int(input())
+y=list(map(int,input().split()))
+y.sort()
+for z in y:
+    print(z,end=' ')
