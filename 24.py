@@ -1,5 +1,5 @@
-n11=int(input())
-a11=list(map(int,input().split()))
-a11.sort()
-for r11 in a11:
-    print(r11,end=' ')
+n=int(input())
+a=list(map(int,input().split()))
+a.sort()
+for r in a:
+    print(r,end=' ')
