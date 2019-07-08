@@ -1,3 +1,4 @@
-a=input(" ")
-c=a.replace(' ','')
-print(len(c))
+inp=input()
+print((len(inp))-(inp.count(" ")))
+
+
