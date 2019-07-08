@@ -1,3 +1,3 @@
-p = int(input())
-q = list(map(int, input().split()))
-print(max(q))
+x= int(input())
+y= list(map(int, input().split()))
+print(max(y))
