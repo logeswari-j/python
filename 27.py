@@ -1,5 +1,5 @@
-a=input()
-if(a.isdigit()):
+x=input()
+if(x.isdigit()):
     print("yes")
 else:
     print("No")
