@@ -1,5 +1,5 @@
-y,z=map(int,input("").split())
-y=y ^ z
-z=y ^ z
-y=y ^ z
-print(y,z)
+a,b=map(int,input("").split())
+a=a ^ b
+b=a ^ b
+a=a ^ b
+print(a,b)
