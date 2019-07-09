@@ -1,4 +1,4 @@
-x1,y2=input().split()
-y2=int(y2)
-for x in range(y2):
-  print(x1)
+msd,runs=input().split()
+runs=int(runs)
+for x in range(runs):
+  print(msd)
