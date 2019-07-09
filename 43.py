@@ -1,3 +1,3 @@
-i,j=map(str,input().split())
-m=i+j
-print(m)
+x,y=map(str,input().split())
+z=x+y
+print(z)
