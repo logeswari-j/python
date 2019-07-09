@@ -1,2 +1,2 @@
-d1=map(int,input().split())
-print(max(d1))
+x1=map(int,input().split())
+print(max(x1))
