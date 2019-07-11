@@ -1,7 +1,11 @@
-gg11,gg11=map(int,input().split())
-maxima=max(gg11,gg11)
-while(1):
- if(maxima%gef11==0 and maxima%sef11==0):
-  print(maxima)
-  break
- maxima+=1
+x1,y2=map(int,input().split())
+if(x1>y2):
+  great=x1
+else:
+  great=y2
+while(True):
+  if((great%x1) == 0 and (great%y2) == 0):
+    lcm=great
+    break
+  great=great+1
+print(lcm)
