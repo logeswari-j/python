@@ -1,3 +1,4 @@
 import math
-l=float(input())
-print(math.ceil(l))
+aa=float(input())
+aa=math.ceil(aa)
+print(aa)
