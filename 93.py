@@ -1,13 +1,12 @@
-dk=int(input())
-ak1=[]
-for i in range(0,dk):
- de=input()
- ak1.append(de)
-nn=[]
-for i in zip(*ak1):
+k6=int(input())
+pk=[]
+for i in range(0,k6):
+ ij=input()
+ pk.append(ij)
+ff=[]
+for i in zip(*pk):
  if(i.count(i[0])==len(i)):
-  nn.append(i[0])
+  ff.append(i[0])
  else:
   break
-print(''.join(nn))
-© 2019 GitHub, Inc.
+print(''.join(ff))
