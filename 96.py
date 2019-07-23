@@ -1,11 +1,11 @@
-aa1,bb1=map(str,input().split())
-x=0
-if len(aa1)>len(bb):
-   aa1,bb1=bb1,aa1
-s=0
-while s<len(aa1):
-   x+=(ord(bb1[s])-ord(aa1[s]))
-   s+=1
-for s in range(s,len(bb1)):
-   x+=ord(bb1[s])-ord('a')+1
-print(x)
+a11,b22=map(str,input().split())
+y=0
+if len(a11)>len(b22):
+	a11,b22=b22,a11
+p=0
+while p<len(a11):
+	  y+=(ord(b22[p])-ord(a11[p]))
+	  p+=1
+for p in range(p,len(b22)):
+	  y+=ord(b22[p])-ord('a')+1
+print(y)
