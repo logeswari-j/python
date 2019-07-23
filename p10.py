@@ -1,9 +1,8 @@
-strg11,strg22=list(map(str,input().split()))
-count=0
-for i in range(0,len(strg22)):
-    if(strg11[i]!=strg22[i]):
-        count+=1
-if(count==1):
-    print('yes')
-else:
-    print('no')
+a11=int(input())
+sum=0
+b22=input().split()
+for i in range(len(b22)):
+  x=int(b22[i])
+  for j in range(i):
+      if(int(b22[j])<x):
+        sum=sum+int(b22[j])
