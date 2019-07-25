@@ -6,3 +6,4 @@ for i in range(len(b22)):
   for j in range(i):
       if(int(b22[j])<x):
         sum=sum+int(b22[j])
+print(sum)
