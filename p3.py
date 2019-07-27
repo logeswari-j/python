@@ -1,2 +1,2 @@
-log=input()
-print(log[::-1])
+hader=input()
+print(hader[::-1])
