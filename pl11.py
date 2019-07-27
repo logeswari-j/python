@@ -1,5 +1,5 @@
 line=input()
-if(line=='saturday' or line=='sunday'):
+if(line=='Tuesday' or line=='Sunday'):
   print("yes")
 else:
   print("no")
