@@ -1,0 +1,2 @@
+mount=input()
+print(mount+'.')
