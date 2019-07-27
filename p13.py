@@ -1,6 +1,6 @@
 god,great=input().split()
 cost=abs(len(great)-len(god))
-for g in range(len(god)):
+for i in range(len(god)):
     if(len(great)==1 and great[g] in god):
         break
     if (god[g]!=great[g]):
