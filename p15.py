@@ -1,5 +1,5 @@
 daloo=input()
-cha=map(int,input().split())
+chs=map(int,input().split())
 arr=[]
 for i in chs:
   x=bin(i)
